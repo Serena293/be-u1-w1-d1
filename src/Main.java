@@ -31,8 +31,13 @@ public class Main {
         String tuttoInsieme = primaStringa + " " + secondaStringa + " " + terzaStringa;
         System.out.println(tuttoInsieme);
         */
-        
+
         //Esercizio 3
+       // perimetroRettangolo(5,3);
+
+      //  pariDispari();
+
+        areaTriangolo(4, 10);
     }
     static int multiply(){
         Scanner scanner = new Scanner(System.in);
@@ -65,6 +70,44 @@ public class Main {
 
         sixGreetings[2]= "Salut";
         System.out.println(Arrays.toString(sixGreetings));
+    }
+
+    static int perimetroRettangolo(int base, int  altezza){
+        int b = base;
+        int h = altezza;
+
+
+        int perimetro = (b + h) * 2;
+
+        System.out.println(perimetro);
+        return perimetro;
+
+    }
+
+    static  void  pariDispari (){
+
+        Scanner scanner = new Scanner(System.in);
+
+        int x = scanner.nextInt();
+
+        if(x % 2 == 0){
+            System.out.println("0");
+        } else {
+            System.out.println("1");
+
+    }
+
+
+
+}
+    static int areaTriangolo(int base,int altezza){
+      //  int a = base;
+      //  int c = altezza;
+
+        int area = base * altezza / 2;
+        System.out.println(area);
+         return area;
+
     }
 
 }
