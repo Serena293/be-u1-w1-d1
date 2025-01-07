@@ -8,14 +8,31 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        multiply();
+      //Esercizio 1
 
-        inserisciArray();
+      //  multiply();
 
-        String word = scanner.nextLine();
+      //  inserisciArray();
+
+      /*  String word = scanner.nextLine();
         int num = scanner.nextInt();
-        concatena(word, num);
+        concatena(word, num); */
 
+        //Esercizio 2
+        /*
+        System.out.println("Esercizio 2");
+        System.out.println("Inserici prima stringa");
+        String primaStringa = scanner.nextLine();
+        System.out.println("Inserisci seconda stringa");
+        String secondaStringa = scanner.nextLine();
+        System.out.println("Inserisci terza stringa");
+        String terzaStringa = scanner.nextLine();
+
+        String tuttoInsieme = primaStringa + " " + secondaStringa + " " + terzaStringa;
+        System.out.println(tuttoInsieme);
+        */
+        
+        //Esercizio 3
     }
     static int multiply(){
         Scanner scanner = new Scanner(System.in);
